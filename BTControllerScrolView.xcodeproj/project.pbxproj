@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1001A11ED55C4600C007A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001A01ED55C4600C007A5 /* main.m */; };
+		DB1001A41ED55C4600C007A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001A31ED55C4600C007A5 /* AppDelegate.m */; };
+		DB1001A71ED55C4600C007A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001A61ED55C4600C007A5 /* ViewController.m */; };
+		DB1001AA1ED55C4600C007A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1001A81ED55C4600C007A5 /* Main.storyboard */; };
+		DB1001AC1ED55C4600C007A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1001AB1ED55C4600C007A5 /* Assets.xcassets */; };
+		DB1001AF1ED55C4600C007A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1001AD1ED55C4600C007A5 /* LaunchScreen.storyboard */; };
+		DB1001BA1ED55C4600C007A5 /* BTControllerScrolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001B91ED55C4600C007A5 /* BTControllerScrolViewTests.m */; };
+		DB1001C51ED55C4600C007A5 /* BTControllerScrolViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001C41ED55C4600C007A5 /* BTControllerScrolViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1001B61ED55C4600C007A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1001941ED55C4600C007A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB10019B1ED55C4600C007A5;
+			remoteInfo = BTControllerScrolView;
+		};
+		DB1001C11ED55C4600C007A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1001941ED55C4600C007A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB10019B1ED55C4600C007A5;
+			remoteInfo = BTControllerScrolView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB10019C1ED55C4600C007A5 /* BTControllerScrolView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTControllerScrolView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1001A01ED55C4600C007A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1001A21ED55C4600C007A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1001A31ED55C4600C007A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1001A51ED55C4600C007A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1001A61ED55C4600C007A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1001A91ED55C4600C007A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1001AB1ED55C4600C007A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1001AE1ED55C4600C007A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1001B01ED55C4600C007A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1001B51ED55C4600C007A5 /* BTControllerScrolViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTControllerScrolViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1001B91ED55C4600C007A5 /* BTControllerScrolViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTControllerScrolViewTests.m; sourceTree = "<group>"; };
+		DB1001BB1ED55C4600C007A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1001C01ED55C4600C007A5 /* BTControllerScrolViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTControllerScrolViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1001C41ED55C4600C007A5 /* BTControllerScrolViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTControllerScrolViewUITests.m; sourceTree = "<group>"; };
+		DB1001C61ED55C4600C007A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1001991ED55C4600C007A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1001B21ED55C4600C007A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1001BD1ED55C4600C007A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1001931ED55C4600C007A5 = {
+			isa = PBXGroup;
+			children = (
+				DB10019E1ED55C4600C007A5 /* BTControllerScrolView */,
+				DB1001B81ED55C4600C007A5 /* BTControllerScrolViewTests */,
+				DB1001C31ED55C4600C007A5 /* BTControllerScrolViewUITests */,
+				DB10019D1ED55C4600C007A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB10019D1ED55C4600C007A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB10019C1ED55C4600C007A5 /* BTControllerScrolView.app */,
+				DB1001B51ED55C4600C007A5 /* BTControllerScrolViewTests.xctest */,
+				DB1001C01ED55C4600C007A5 /* BTControllerScrolViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB10019E1ED55C4600C007A5 /* BTControllerScrolView */ = {
+			isa = PBXGroup;
+			children = (
+				DB1001A21ED55C4600C007A5 /* AppDelegate.h */,
+				DB1001A31ED55C4600C007A5 /* AppDelegate.m */,
+				DB1001A51ED55C4600C007A5 /* ViewController.h */,
+				DB1001A61ED55C4600C007A5 /* ViewController.m */,
+				DB1001A81ED55C4600C007A5 /* Main.storyboard */,
+				DB1001AB1ED55C4600C007A5 /* Assets.xcassets */,
+				DB1001AD1ED55C4600C007A5 /* LaunchScreen.storyboard */,
+				DB1001B01ED55C4600C007A5 /* Info.plist */,
+				DB10019F1ED55C4600C007A5 /* Supporting Files */,
+			);
+			path = BTControllerScrolView;
+			sourceTree = "<group>";
+		};
+		DB10019F1ED55C4600C007A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1001A01ED55C4600C007A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1001B81ED55C4600C007A5 /* BTControllerScrolViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1001B91ED55C4600C007A5 /* BTControllerScrolViewTests.m */,
+				DB1001BB1ED55C4600C007A5 /* Info.plist */,
+			);
+			path = BTControllerScrolViewTests;
+			sourceTree = "<group>";
+		};
+		DB1001C31ED55C4600C007A5 /* BTControllerScrolViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1001C41ED55C4600C007A5 /* BTControllerScrolViewUITests.m */,
+				DB1001C61ED55C4600C007A5 /* Info.plist */,
+			);
+			path = BTControllerScrolViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB10019B1ED55C4600C007A5 /* BTControllerScrolView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1001C91ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolView" */;
+			buildPhases = (
+				DB1001981ED55C4600C007A5 /* Sources */,
+				DB1001991ED55C4600C007A5 /* Frameworks */,
+				DB10019A1ED55C4600C007A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTControllerScrolView;
+			productName = BTControllerScrolView;
+			productReference = DB10019C1ED55C4600C007A5 /* BTControllerScrolView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1001B41ED55C4600C007A5 /* BTControllerScrolViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1001CC1ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolViewTests" */;
+			buildPhases = (
+				DB1001B11ED55C4600C007A5 /* Sources */,
+				DB1001B21ED55C4600C007A5 /* Frameworks */,
+				DB1001B31ED55C4600C007A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1001B71ED55C4600C007A5 /* PBXTargetDependency */,
+			);
+			name = BTControllerScrolViewTests;
+			productName = BTControllerScrolViewTests;
+			productReference = DB1001B51ED55C4600C007A5 /* BTControllerScrolViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1001BF1ED55C4600C007A5 /* BTControllerScrolViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1001CF1ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolViewUITests" */;
+			buildPhases = (
+				DB1001BC1ED55C4600C007A5 /* Sources */,
+				DB1001BD1ED55C4600C007A5 /* Frameworks */,
+				DB1001BE1ED55C4600C007A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1001C21ED55C4600C007A5 /* PBXTargetDependency */,
+			);
+			name = BTControllerScrolViewUITests;
+			productName = BTControllerScrolViewUITests;
+			productReference = DB1001C01ED55C4600C007A5 /* BTControllerScrolViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1001941ED55C4600C007A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = beautilut;
+				TargetAttributes = {
+					DB10019B1ED55C4600C007A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 52Z7U3B7AH;
+						ProvisioningStyle = Automatic;
+					};
+					DB1001B41ED55C4600C007A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 52Z7U3B7AH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB10019B1ED55C4600C007A5;
+					};
+					DB1001BF1ED55C4600C007A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 52Z7U3B7AH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB10019B1ED55C4600C007A5;
+					};
+				};
+			};
+			buildConfigurationList = DB1001971ED55C4600C007A5 /* Build configuration list for PBXProject "BTControllerScrolView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1001931ED55C4600C007A5;
+			productRefGroup = DB10019D1ED55C4600C007A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB10019B1ED55C4600C007A5 /* BTControllerScrolView */,
+				DB1001B41ED55C4600C007A5 /* BTControllerScrolViewTests */,
+				DB1001BF1ED55C4600C007A5 /* BTControllerScrolViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB10019A1ED55C4600C007A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1001AF1ED55C4600C007A5 /* LaunchScreen.storyboard in Resources */,
+				DB1001AC1ED55C4600C007A5 /* Assets.xcassets in Resources */,
+				DB1001AA1ED55C4600C007A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1001B31ED55C4600C007A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1001BE1ED55C4600C007A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1001981ED55C4600C007A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1001A71ED55C4600C007A5 /* ViewController.m in Sources */,
+				DB1001A41ED55C4600C007A5 /* AppDelegate.m in Sources */,
+				DB1001A11ED55C4600C007A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1001B11ED55C4600C007A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1001BA1ED55C4600C007A5 /* BTControllerScrolViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1001BC1ED55C4600C007A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1001C51ED55C4600C007A5 /* BTControllerScrolViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1001B71ED55C4600C007A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB10019B1ED55C4600C007A5 /* BTControllerScrolView */;
+			targetProxy = DB1001B61ED55C4600C007A5 /* PBXContainerItemProxy */;
+		};
+		DB1001C21ED55C4600C007A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB10019B1ED55C4600C007A5 /* BTControllerScrolView */;
+			targetProxy = DB1001C11ED55C4600C007A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1001A81ED55C4600C007A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1001A91ED55C4600C007A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1001AD1ED55C4600C007A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1001AE1ED55C4600C007A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1001C71ED55C4600C007A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1001C81ED55C4600C007A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1001CA1ED55C4600C007A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52Z7U3B7AH;
+				INFOPLIST_FILE = BTControllerScrolView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beautilut.BTControllerScrolView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1001CB1ED55C4600C007A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52Z7U3B7AH;
+				INFOPLIST_FILE = BTControllerScrolView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beautilut.BTControllerScrolView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB1001CD1ED55C4600C007A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 52Z7U3B7AH;
+				INFOPLIST_FILE = BTControllerScrolViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beautilut.BTControllerScrolViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTControllerScrolView.app/BTControllerScrolView";
+			};
+			name = Debug;
+		};
+		DB1001CE1ED55C4600C007A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 52Z7U3B7AH;
+				INFOPLIST_FILE = BTControllerScrolViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beautilut.BTControllerScrolViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTControllerScrolView.app/BTControllerScrolView";
+			};
+			name = Release;
+		};
+		DB1001D01ED55C4600C007A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 52Z7U3B7AH;
+				INFOPLIST_FILE = BTControllerScrolViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beautilut.BTControllerScrolViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTControllerScrolView;
+			};
+			name = Debug;
+		};
+		DB1001D11ED55C4600C007A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 52Z7U3B7AH;
+				INFOPLIST_FILE = BTControllerScrolViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = beautilut.BTControllerScrolViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTControllerScrolView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1001971ED55C4600C007A5 /* Build configuration list for PBXProject "BTControllerScrolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1001C71ED55C4600C007A5 /* Debug */,
+				DB1001C81ED55C4600C007A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1001C91ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1001CA1ED55C4600C007A5 /* Debug */,
+				DB1001CB1ED55C4600C007A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB1001CC1ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1001CD1ED55C4600C007A5 /* Debug */,
+				DB1001CE1ED55C4600C007A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB1001CF1ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1001D01ED55C4600C007A5 /* Debug */,
+				DB1001D11ED55C4600C007A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1001941ED55C4600C007A5 /* Project object */;
+}
