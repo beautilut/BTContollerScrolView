@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BTScrollViewController.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    BTScrollViewController * vc = [[BTScrollViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+//    self.view.backgroundColor = [UIColor greenColor];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -15,6 +15,10 @@
 		DB1001AF1ED55C4600C007A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1001AD1ED55C4600C007A5 /* LaunchScreen.storyboard */; };
 		DB1001BA1ED55C4600C007A5 /* BTControllerScrolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001B91ED55C4600C007A5 /* BTControllerScrolViewTests.m */; };
 		DB1001C51ED55C4600C007A5 /* BTControllerScrolViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1001C41ED55C4600C007A5 /* BTControllerScrolViewUITests.m */; };
+		DB9A1E861EE0128800FA06B9 /* BTScrollView+Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A1E851EE0128800FA06B9 /* BTScrollView+Touch.m */; };
+		DBEEF9431EDE9F2500C3DEC8 /* BTScrollPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEEF9421EDE9F2500C3DEC8 /* BTScrollPageViewController.m */; };
+		DBEEF9461EDE9FD200C3DEC8 /* BTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEEF9451EDE9FD200C3DEC8 /* BTScrollView.m */; };
+		DBEEF9491EDE9FE200C3DEC8 /* BTScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEEF9481EDE9FE200C3DEC8 /* BTScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		DB1001C01ED55C4600C007A5 /* BTControllerScrolViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTControllerScrolViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1001C41ED55C4600C007A5 /* BTControllerScrolViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTControllerScrolViewUITests.m; sourceTree = "<group>"; };
 		DB1001C61ED55C4600C007A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9A1E841EE0128800FA06B9 /* BTScrollView+Touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTScrollView+Touch.h"; sourceTree = "<group>"; };
+		DB9A1E851EE0128800FA06B9 /* BTScrollView+Touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTScrollView+Touch.m"; sourceTree = "<group>"; };
+		DBEEF9411EDE9F2500C3DEC8 /* BTScrollPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScrollPageViewController.h; sourceTree = "<group>"; };
+		DBEEF9421EDE9F2500C3DEC8 /* BTScrollPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScrollPageViewController.m; sourceTree = "<group>"; };
+		DBEEF9441EDE9FD200C3DEC8 /* BTScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScrollView.h; sourceTree = "<group>"; };
+		DBEEF9451EDE9FD200C3DEC8 /* BTScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScrollView.m; sourceTree = "<group>"; };
+		DBEEF9471EDE9FE200C3DEC8 /* BTScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTScrollViewController.h; sourceTree = "<group>"; };
+		DBEEF9481EDE9FE200C3DEC8 /* BTScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTScrollViewController.m; sourceTree = "<group>"; };
+		DBEEF94A1EDEA02E00C3DEC8 /* BTScrollerViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTScrollerViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,7 @@
 		DB10019E1ED55C4600C007A5 /* BTControllerScrolView */ = {
 			isa = PBXGroup;
 			children = (
+				DB1001D21ED55E5400C007A5 /* BTControllerScrolView */,
 				DB1001A21ED55C4600C007A5 /* AppDelegate.h */,
 				DB1001A31ED55C4600C007A5 /* AppDelegate.m */,
 				DB1001A51ED55C4600C007A5 /* ViewController.h */,
@@ -138,6 +152,22 @@
 				DB1001C61ED55C4600C007A5 /* Info.plist */,
 			);
 			path = BTControllerScrolViewUITests;
+			sourceTree = "<group>";
+		};
+		DB1001D21ED55E5400C007A5 /* BTControllerScrolView */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEF9471EDE9FE200C3DEC8 /* BTScrollViewController.h */,
+				DBEEF9481EDE9FE200C3DEC8 /* BTScrollViewController.m */,
+				DBEEF9441EDE9FD200C3DEC8 /* BTScrollView.h */,
+				DBEEF9451EDE9FD200C3DEC8 /* BTScrollView.m */,
+				DB9A1E841EE0128800FA06B9 /* BTScrollView+Touch.h */,
+				DB9A1E851EE0128800FA06B9 /* BTScrollView+Touch.m */,
+				DBEEF9411EDE9F2500C3DEC8 /* BTScrollPageViewController.h */,
+				DBEEF9421EDE9F2500C3DEC8 /* BTScrollPageViewController.m */,
+				DBEEF94A1EDEA02E00C3DEC8 /* BTScrollerViewProtocol.h */,
+			);
+			name = BTControllerScrolView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +309,10 @@
 				DB1001A71ED55C4600C007A5 /* ViewController.m in Sources */,
 				DB1001A41ED55C4600C007A5 /* AppDelegate.m in Sources */,
 				DB1001A11ED55C4600C007A5 /* main.m in Sources */,
+				DBEEF9461EDE9FD200C3DEC8 /* BTScrollView.m in Sources */,
+				DBEEF9431EDE9F2500C3DEC8 /* BTScrollPageViewController.m in Sources */,
+				DBEEF9491EDE9FE200C3DEC8 /* BTScrollViewController.m in Sources */,
+				DB9A1E861EE0128800FA06B9 /* BTScrollView+Touch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +548,7 @@
 				DB1001CB1ED55C4600C007A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB1001CC1ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +557,7 @@
 				DB1001CE1ED55C4600C007A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB1001CF1ED55C4600C007A5 /* Build configuration list for PBXNativeTarget "BTControllerScrolViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +566,7 @@
 				DB1001D11ED55C4600C007A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
