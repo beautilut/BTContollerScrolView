@@ -12,6 +12,8 @@
 
 -(UIView*)scrollerHeaderView;
 
+-(CGFloat)scrollerFloatViewHeight;
+
 @required
 //
 -(NSInteger)numberOfViewControllers;
