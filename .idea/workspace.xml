@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55617d79-7218-4678-804a-8ed7756b0bbc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollPageViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollPageViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollView+Touch.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollView+Touch.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView.xcodeproj/project.xcworkspace/xcuserdata/beautilut.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/BTControllerScrolView.xcodeproj/project.xcworkspace/xcuserdata/beautilut.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/BTControllerScrolView.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView.xcodeproj/xcuserdata/beautilut.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/BTControllerScrolView.xcodeproj/xcuserdata/beautilut.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/BTControllerScrolView/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView/ViewController.m" afterPath="$PROJECT_DIR$/BTControllerScrolView/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.m" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h" afterPath="$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,14 +31,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTScrollView.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BTScrollPageViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollPageViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTScrollView.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="156" column="65" lean-forward="false" selection-start-line="156" selection-start-column="65" selection-end-line="156" selection-end-column="65" />
-              <folding>
-                <element signature="e#148#172#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="595">
+              <caret line="166" column="65" lean-forward="false" selection-start-line="166" selection-start-column="65" selection-end-line="166" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,9 +55,21 @@
         <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="e#148#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTScrollViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#158#181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,18 +78,18 @@
       <file leaf-file-name="UIScrollView.h" pinned="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="1875">
               <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="145" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTScrollerViewProtocol.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BTScrollerViewProtocol.h" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="42" column="66" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+            <state relative-caret-position="165">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -88,7 +98,7 @@
       <file leaf-file-name="NSObjCRuntime.h" pinned="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="3840">
               <caret line="256" column="8" lean-forward="false" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
               <folding />
             </state>
@@ -109,8 +119,8 @@
         <option value="$PROJECT_DIR$/BTControllerScrolView/BTScrolController.h" />
         <option value="$PROJECT_DIR$/BTControllerScrolView/ViewController.m" />
         <option value="$PROJECT_DIR$/BTControllerScrolView/BTScrollView.h" />
-        <option value="$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h" />
         <option value="$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m" />
+        <option value="$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h" />
       </list>
     </option>
   </component>
@@ -223,6 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="BTControllerScrolView" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.BTControllerScrolView">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BTControllerScrolView" TARGET_NAME="BTControllerScrolView" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BTControllerScrolView" RUN_TARGET_NAME="BTControllerScrolView" MAKE_ACTIVE="TRUE">
@@ -258,18 +269,19 @@
       <workItem from="1496211154913" duration="1498000" />
       <workItem from="1496303462157" duration="349000" />
       <workItem from="1496372898088" duration="2378000" />
+      <workItem from="1496733335619" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7866000" />
+    <option name="totallyTimeSpent" value="8092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1362" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2651515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2689394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -313,9 +325,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
-            <element signature="e#148#172#0" expanded="true" />
+            <element signature="e#148#171#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="145" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="66" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="256" column="8" lean-forward="false" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -355,6 +415,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="145" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="256" column="8" lean-forward="false" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="166" column="65" lean-forward="false" selection-start-line="166" selection-start-column="65" selection-end-line="166" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#148#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#158#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -363,47 +467,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h">
+    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollPageViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="145" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="256" column="8" lean-forward="false" selection-start-line="256" selection-start-column="8" selection-end-line="256" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollerViewProtocol.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="42" column="66" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        <state relative-caret-position="165">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#148#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTControllerScrolView/BTScrollView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="156" column="65" lean-forward="false" selection-start-line="156" selection-start-column="65" selection-end-line="156" selection-end-column="65" />
-          <folding>
-            <element signature="e#148#172#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

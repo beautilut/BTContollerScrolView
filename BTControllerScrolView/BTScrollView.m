@@ -39,7 +39,7 @@
         [self setContentSize:CGSizeMake(self.frame.size.width * self.currentCount, self.frame.size.height)];
         
         
-        UIView * headerView = [self.btDataSource scrollerHeaderView];
+        UIView * headerView = [self.btDataSource respondsToSelector:@selector(scrollerHeaderView)]? [self.btDataSource scrollerHeaderView] : nil;
         
         
         for (int x = 0 ; x < self.currentCount; x ++) {
@@ -51,15 +51,17 @@
                 [pageController.view setFrame:frame];
                 [self addSubview:pageController.view];
                  UIScrollView * scrol = [pageController scrollView];
+                
                 if (headerView) {
                     [scrol setContentInset:UIEdgeInsetsMake(headerView.frame.size.height, 0, 0, 0)];
-                }
-                if (x == 0) {
-                    CGRect frame = headerView.frame;
-                    frame.origin.y = -frame.size.height;
-                    headerView.frame = frame;
-                    [scrol addSubview:headerView];
-                    [scrol addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+                    
+                    if (x == 0) {
+                        CGRect frame = headerView.frame;
+                        frame.origin.y = -frame.size.height;
+                        headerView.frame = frame;
+                        [scrol addSubview:headerView];
+                        [scrol addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+                    }
                 }
             }
         }
@@ -81,15 +83,17 @@
     }else{
         NSInteger changeIndex = [self.containSet containsObject:@(leftIndex)] ? rightIndex : leftIndex;
         
-        UIView * headerView = [self.btDataSource scrollerHeaderView];
+        UIView * headerView = [self.btDataSource respondsToSelector:@selector(scrollerHeaderView)]? [self.btDataSource scrollerHeaderView] : nil;
         
         BTScrollPageViewController * pageController = [self.btDataSource pageViewControllersAtIndex:changeIndex];
         UIScrollView * scrol = [pageController scrollView];
         
-        if (headerView.frame.origin.y == - (headerView.frame.size.height - [self.btDataSource scrollerFloatViewHeight])) {
-            [scrol setContentOffset:CGPointMake(0, - [self.btDataSource scrollerFloatViewHeight])];
-        }else{
-            [scrol setContentOffset:CGPointMake(0, -headerView.frame.size.height - headerView.frame.origin.y)];
+        if (headerView) {
+            if (headerView.frame.origin.y == - (headerView.frame.size.height - [self getScrollerHeight])) {
+                [scrol setContentOffset:CGPointMake(0, - [self getScrollerHeight])];
+            }else{
+                [scrol setContentOffset:CGPointMake(0, -headerView.frame.size.height - headerView.frame.origin.y)];
+            }
         }
         
 
@@ -133,15 +137,18 @@
         BTScrollPageViewController * pageController = [self.btDataSource pageViewControllersAtIndex:x];
         UIScrollView * scrol = [pageController scrollView];
         
-        UIView * headerView = [self.btDataSource scrollerHeaderView];
-        CGFloat contentOffSetY = -headerView.frame.size.height - scrol.contentOffset.y ;
-        [headerView removeFromSuperview];
-        CGRect frame = headerView.frame;
-        frame.origin.y = contentOffSetY > -(headerView.frame.size.height - [self.btDataSource scrollerFloatViewHeight]) ? contentOffSetY : -(headerView.frame.size.height - [self.btDataSource scrollerFloatViewHeight]);
-        headerView.frame = frame;
-        [self.superview addSubview:headerView];
+        UIView * headerView = [self.btDataSource respondsToSelector:@selector(scrollerHeaderView)]? [self.btDataSource scrollerHeaderView] : nil;
+        if (headerView) {
+            CGFloat contentOffSetY = -headerView.frame.size.height - scrol.contentOffset.y ;
+            [headerView removeFromSuperview];
+            CGRect frame = headerView.frame;
+            frame.origin.y = contentOffSetY > -(headerView.frame.size.height - [self getScrollerHeight]) ? contentOffSetY : -(headerView.frame.size.height - [self getScrollerHeight]);
+            headerView.frame = frame;
+            [self.superview addSubview:headerView];
+            
+            [scrol removeObserver:self forKeyPath:@"contentOffset"];
+        }
         
-        [scrol removeObserver:self forKeyPath:@"contentOffset"];
     }
     
     if ([self.btDelegate respondsToSelector:@selector(scrollViewWillBeginDragging:)]) {
@@ -171,18 +178,21 @@
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
     if (scrollView == self) {
-        UIView * headerView = [self.btDataSource scrollerHeaderView];
-        [headerView removeFromSuperview];
-        CGRect frame = headerView.frame;
-        NSInteger x = scrollView.contentOffset.x / self.frame.size.width;
-        BTScrollPageViewController * pageController = [self.btDataSource pageViewControllersAtIndex:x];
-         UIScrollView * scrol = [pageController scrollView];
+        UIView * headerView = [self.btDataSource respondsToSelector:@selector(scrollerHeaderView)]? [self.btDataSource scrollerHeaderView] : nil;
+        if (headerView) {
+            [headerView removeFromSuperview];
+            CGRect frame = headerView.frame;
+            NSInteger x = scrollView.contentOffset.x / self.frame.size.width;
+            BTScrollPageViewController * pageController = [self.btDataSource pageViewControllersAtIndex:x];
+            UIScrollView * scrol = [pageController scrollView];
+            
+            frame.origin.y = - headerView.frame.size.height;
+            headerView.frame = frame;
+            [scrol addSubview:headerView];
+            
+            [scrol addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+        }
         
-        frame.origin.y = - headerView.frame.size.height;
-        headerView.frame = frame;
-        [scrol addSubview:headerView];
-        
-        [scrol addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
     }
     if ([self.btDelegate respondsToSelector:@selector(scrollViewDidEndDecelerating:)]) {
         [self.btDelegate bt_scrollViewDidEndDecelerating:scrollView];
@@ -243,17 +253,24 @@
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
     UIScrollView * scrollView = object;
-    UIView * header = [self.btDataSource scrollerHeaderView];
-    if (scrollView.contentOffset.y > -[self.btDataSource scrollerFloatViewHeight]) {
-        CGRect frame = header.frame;
-        frame.origin.y = scrollView.contentOffset.y - (header.frame.size.height - [self.btDataSource scrollerFloatViewHeight]);
-        header.frame = frame;
-    }else{
-        CGRect frame = header.frame;
-        frame.origin.y = -frame.size.height;
-        header.frame = frame;
-        
+    UIView * header = [self.btDataSource respondsToSelector:@selector(scrollerHeaderView)]? [self.btDataSource scrollerHeaderView] : nil;
+    if (header) {
+        if (scrollView.contentOffset.y > -[self getScrollerHeight]) {
+            CGRect frame = header.frame;
+            frame.origin.y = scrollView.contentOffset.y - (header.frame.size.height - [self getScrollerHeight]);
+            header.frame = frame;
+        }else{
+            CGRect frame = header.frame;
+            frame.origin.y = -frame.size.height;
+            header.frame = frame;
+            
+        }
     }
+}
+
+-(CGFloat)getScrollerHeight
+{
+    return [self.btDataSource respondsToSelector:@selector(scrollerFloatViewMarginHeight)] ? [self.btDataSource scrollerFloatViewMarginHeight] : 0;
 }
 
 @end

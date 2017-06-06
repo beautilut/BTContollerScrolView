@@ -80,7 +80,7 @@
     return self.headerView;
 }
 
--(CGFloat)scrollerFloatViewHeight
+-(CGFloat)scrollerFloatViewMarginHeight
 {
     return 100;
 }

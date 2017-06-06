@@ -10,15 +10,17 @@
 
 @protocol BTScrollViewDataSource <NSObject>
 
+//获取顶部视图
 -(UIView*)scrollerHeaderView;
 
--(CGFloat)scrollerFloatViewHeight;
+//获取浮层视图的间隔距离
+-(CGFloat)scrollerFloatViewMarginHeight;
 
 @required
-//
+// 子控制器数量
 -(NSInteger)numberOfViewControllers;
 
-//
+// 获取子控制器
 -(BTScrollPageViewController*)pageViewControllersAtIndex:(NSInteger)index;
 
 @end
